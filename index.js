@@ -12,7 +12,7 @@ const app = express();
 app.use(cors())
 const DATABASE_URL=process.env.DATABASE_URL
 
-const data = JSON.parse(fs.readFileSync('./data.json', 'utf-8'))
+// const data = JSON.parse(fs.readFileSync('./data.json', 'utf-8'))
 //Db connection
 connectDB(DATABASE_URL)
 
